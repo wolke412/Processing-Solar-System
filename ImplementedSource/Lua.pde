@@ -22,12 +22,15 @@ class Moon {
   }
 
   void display() {
+
     pushMatrix();
-    rotate(theta);
-    translate(distance, 0);
-    stroke(0);
-    fill(bodyColor);
-    ellipse(0, 0, diameter, diameter);
+      rotate(theta);
+      translate(distance, 0);
+
+      stroke(0);
+      fill(bodyColor);
+      ellipse(0, 0, diameter, diameter);
     popMatrix();
+
   }
 }
