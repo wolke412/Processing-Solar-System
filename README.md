@@ -17,4 +17,4 @@ A independência também vem das matrizes empilhadas: planeta e lua aplicam suas
 
 
 # Diagrama Etapa 1
-[Não foi possível carregar a imagem do diagrama.](DiagramaEtapa1.png) 
+![Não foi possível carregar a imagem do diagrama.](DiagramaEtapa1.png) 
