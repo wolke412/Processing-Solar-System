@@ -24,12 +24,41 @@ class Moon {
   void display() {
 
     pushMatrix();
+    
+      /////////////////////////////////////////////////////////////
+      // Normal
+      
       rotate(theta);
       translate(distance, 0);
+ 
 
       stroke(0);
       fill(bodyColor);
       ellipse(0, 0, diameter, diameter);
+      
+      // .
+      /////////////////////////////////////////////////////////////
+      
+      
+      /////////////////////////////////////////////////////////////
+      // O código abaixo demonstra o comportamento 
+      // do corpo passando a rotacionar sob a própria origem.
+      // O retângulo demonstra melhor que uma esfera.
+      // -
+      // Para testar descomente o código abaixo 
+      // e comente o código acima.
+      
+      //translate(distance, 0);
+      //rotate(theta);
+ 
+      //stroke(0);
+      //fill(bodyColor);
+      //rect( 0, 0, 30, 5 );
+      
+      // .
+      /////////////////////////////////////////////////////////////
+      
+      
     popMatrix();
 
   }
